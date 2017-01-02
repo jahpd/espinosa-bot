@@ -4,15 +4,15 @@
   "description": "a bot to send espinosa texts",
   "main": "dist/build.js",
   "scripts": {
-    "build": "grunt",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt",
+    "start": "node dist/build.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "jahpd",
   "devDependencies": {
     "grunt-contrib-coffee": "^1.0.0"
   },
   "dependencies": {
+    "mongoose": "^4.7.5",
     "node-telegram-bot-api": "^0.25.0"
   }
 }
