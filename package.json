@@ -4,11 +4,12 @@
   "description": "a bot to send espinosa texts",
   "main": "dist/build.js",
   "scripts": {
-    "test": "grunt",
+    "test": "node node_modules/bin/grunt",
     "start": "node dist/build.js"
   },
   "author": "jahpd",
   "devDependencies": {
+    "grunt":"*",
     "grunt-contrib-coffee": "^1.0.0"
   },
   "dependencies": {
